@@ -1,186 +1,166 @@
 {
-    "basics": {
-      "name": "Ziyong Ma",
-      "email": "ziyongm@andrew.cmu.edu",
-      "phone": "(412) 286-8490",
-      "url": "https://www.linkedin.com/in/ziyong-ma-720yong/",
-      "label": "Undergraduate Student",
-      "summary": "Undergraduate student at Carnegie Mellon University majoring in Mathematics and Computer Science with research interests in Robotics, Spatial Intelligence and Data Infrastrutre, Machine Learning for Healthcare.",
-      "location": {
-        "city": "Pittsburgh",
-        "region": "PA",
-        "country": "United States"
-      }
-    },
-  
-    "education": [
-      {
-        "institution": "Carnegie Mellon University",
-        "area": "Mathematics and Computer Science",
-        "studyType": "Bachelor of Science",
-        "startDate": "2022-09",
-        "endDate": "2026-05",
-        "score": "3.66/4.0",
-        "courses": [
-          "Machine Learning",
-          "Algorithm Design",
-          "Computer Systems",
-          "Software Engineering",
-          "Theoretical Computer Science",
-          "Probability",
-          "Algebra",
-          "Operations Research"
-        ],
-        "honors": [
-          "Dean’s List (Spring 2023, Fall 2023, Spring 2024, Fall 2024, Spring 2025)"
-        ]
-      }
-    ],
-  
-    "work": [
-      {
-        "name": "WiSE Lab, CMU Computer Science Department",
-        "position": "Research Assistant",
-        "url": "https://www.open-flame.com/",
-        "startDate": "2024-06-01",
-        "summary": "Working on OpenFLAME: a large-scale federated localization and mapping system integrating indoor and outdoor 3D maps, 3D tiles, and search infrastructure using multimodal LLMs.",
-        "highlights": [
-          "Built an interactive 3D map platform with CesiumJS and Google 3D Tiles.",
-          "Developed a Dockerized 3D tile service with Django for map delivery.",
-          "Implemented a multimodal LLM-based search engine for indoor object discovery."
-        ],
-        "supervisors": ["Prof. Srinivasan Seshan", "Prof. Anthony Rowe"]
-      },
-      {
-        "name": "RoBot Intelligence Group, CMU Robotics Institute",
-        "position": "Research Assistant",
-        "startDate": "2025-06-01",
-        "summary": "Conducting research on world models for soft robots under Prof. Jean Oh and Prof. Jeffrey Ichnowski.",
-        "highlights": [
-          "Collected multiview datasets of soft-finger deformations in 2000+ states.",
-          "Reconstructed 3D time-series models using VGGT and neural predictions."
-        ]
-      },
-      {
-        "name": "DROP Lab, CMU Robotics Institute",
-        "position": "Research Assistant",
-        "startDate": "2025-01-01",
-        "endDate": "2025-09-01",
-        "summary": "Worked on Video-Generation Environment Representation (VGER) for 3D reconstruction and motion policy generation.",
-        "highlights": [
-          "Integrated video generation with 3D foundation models for single-image reconstruction.",
-          "Developed a multi-scale noise framework for motion-consistent environment representation.",
-          "Second-author paper published at NeurIPS 2025."
-        ],
-        "supervisors": ["Prof. Matthew Johnson-Roberson", "Dr. Weiming Zhi"]
-      },
-      {
-        "name": "Data Interaction Group, CMU Human-Computer Interaction Institute",
-        "position": "Research Assistant",
-        "startDate": "2024-06-01",
-        "endDate": "2025-09-01",
-        "summary": "Developed machine learning systems for healthcare applications under Prof. Adam Perer.",
-        "highlights": [
-          "Co-authored CHI 2025 paper 'Tempo' for collaborative predictive model design.",
-          "Built ML components (Dense, LSTM, Transformer) and integrated SHAP-based interpretability.",
-          "First-authored ML4H 2025 paper 'TempoQL'—a human-readable query system for EHR data."
-        ]
-      },
-      {
-        "name": "Soterea Automotive Technology Co., Ltd.",
-        "position": "AI Intern",
-        "startDate": "2022-07-01",
-        "endDate": "2022-08-01",
-        "summary": "Worked on deep learning–based driver assistance systems.",
-        "highlights": [
-          "Collected and processed real-world driving data.",
-          "Trained and tested danger-detection models to improve driver safety."
-        ]
-      }
-    ],
-  
-    "publications": [
-      {
-        "name": "TempoQL: A Readable, Precise, and Portable Query System for Electronic Health Record Data",
-        "publisher": "Machine Learning for Healthcare (ML4H) 2025",
-        "authors": ["Ziyong Ma", "Venkatesh Sivaraman", "Richard D. Boyce", "Adam Perer"]
-      },
-      {
-        "name": "From Single Images to Motion Policies via Video-Generation Environment Representations",
-        "publisher": "NeurIPS 2025",
-        "authors": ["Weiming Zhi", "Ziyong Ma", "Tianyi Zhang", "Matthew Johnson-Roberson"]
-      },
-      {
-        "name": "OpenFLAME: A Federated Spatial Naming Infrastructure",
-        "publisher": "arXiv:2411.04271v2 (2025)",
-        "authors": ["Sagar Bharadwaj", "Ziyong Ma", "Ivan Liang", "Michael Farb", "Anthony Rowe", "Srinivasan Seshan"]
-      },
-      {
-        "name": "Tempo: Helping Data Scientists and Domain Experts Collaboratively Specify Predictive Modeling Tasks",
-        "publisher": "CHI 2025",
-        "authors": ["Venkatesh Sivaraman", "Anika Vaishampayan", "Xiaotong Li", "Brian R. Buck", "Ziyong Ma", "Richard D. Boyce", "Adam Perer"]
-      },
-      {
-        "name": "Introducing Students to Research and Reproducibility with Open Science Tools",
-        "publisher": "ASEE Annual Conference 2024",
-        "authors": ["Chasz Griego", "Cheng Zhang", "Wenchao Hu", "Ziyong Ma", "Andy Ouyang"]
-      },
-      {
-        "name": "DOSE3: Diffusion-based Unified Out-of-Distribution Detection on SE(3) Trajectories",
-        "publisher": "under review",
-        "authors": ["Hongzhe Cheng*", "Tianyou Zhang*", "Ziyong Ma*", "Tianyi Zhang", "Matthew Johnson-Roberson", "Weiming Zhi"]
-      }
-    ],
-  
-    "projects": [
-      {
-        "name": "Distributed Bitcoin Miner",
-        "startDate": "2025-09-01",
-        "endDate": "2025-10-01",
-        "summary": "Implemented a distributed Bitcoin mining system using a custom reliable UDP protocol.",
-        "highlights": [
-          "Implemented LSP protocol in Go for fault-tolerant communication.",
-          "Built job scheduler with fairness and fault recovery."
-        ]
-      },
-      {
-        "name": "Cupid Dating App",
-        "startDate": "2024-03-01",
-        "endDate": "2024-08-01",
-        "summary": "Developed an AI-powered dating app with chatbot and matching system.",
-        "url": "https://www.youtube.com/watch?v=V6DfPd9IELI"
-      },
-      {
-        "name": "Memory Allocator and Proxy Server Projects",
-        "startDate": "2023-07-01",
-        "summary": "Built systems-level projects including a 64-bit memory allocator and concurrent proxy server with LRU caching."
-      }
-    ],
-  
-    "skills": [
+  "basics": {
+    "name": "Ziyong Ma",
+    "email": "ziyongm@andrew.cmu.edu",
+    "phone": "(412) 286-8490",
+    "url": "https://www.linkedin.com/in/ziyong-ma-720yong/",
+    "label": "Undergraduate Student",
+    "summary": "Undergraduate student at Carnegie Mellon University majoring in Mathematics and Computer Science with research interests in Robotics, Spatial Intelligence and Data Infrastrutre, Machine Learning for Healthcare.",
+    "location": {
+      "city": "Pittsburgh",
+      "region": "PA",
+      "country": "United States"
+    }
+  },
+
+  "education": [
     {
-        "name": "Programming",
-        "level": "Advanced",
-        "icon": "fa-solid fa-code",
-        "keywords": [
-        "Python",
-        "C",
-        "C++",
-        "CUDA",
-        "OpenCV",
-        "PyTorch",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "HTML",
-        "CSS"
-        ]
+      "institution": "Carnegie Mellon University",
+      "area": "Mathematics and Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09",
+      "endDate": "2026-05",
+      "score": "3.66/4.0",
+      "courses": [
+        "Machine Learning",
+        "Algorithm Design",
+        "Computer Systems",
+        "Software Engineering",
+        "Theoretical Computer Science",
+        "Probability",
+        "Algebra",
+        "Operations Research"
+      ],
+      "honors": ["Dean’s List (Spring 2023, Fall 2023, Spring 2024, Fall 2024, Spring 2025)"]
+    }
+  ],
+
+  "work": [
+    {
+      "name": "WiSE Lab, CMU Computer Science Department",
+      "position": "Research Assistant",
+      "url": "https://www.open-flame.com/",
+      "startDate": "2024-06-01",
+      "summary": "Working on OpenFLAME: a large-scale federated localization and mapping system integrating indoor and outdoor 3D maps, 3D tiles, and search infrastructure using multimodal LLMs.",
+      "highlights": [
+        "Built an interactive 3D map platform with CesiumJS and Google 3D Tiles.",
+        "Developed a Dockerized 3D tile service with Django for map delivery.",
+        "Implemented a multimodal LLM-based search engine for indoor object discovery."
+      ],
+      "supervisors": ["Prof. Srinivasan Seshan", "Prof. Anthony Rowe"]
     },
     {
-        "name": "Machine Learning & Robotics",
-        "level": "Advanced",
-        "icon": "fa-solid fa-robot",
-        "keywords": [
+      "name": "RoBot Intelligence Group, CMU Robotics Institute",
+      "position": "Research Assistant",
+      "startDate": "2025-06-01",
+      "summary": "Conducting research on world models for soft robots under Prof. Jean Oh and Prof. Jeffrey Ichnowski.",
+      "highlights": [
+        "Collected multiview datasets of soft-finger deformations in 2000+ states.",
+        "Reconstructed 3D time-series models using VGGT and neural predictions."
+      ]
+    },
+    {
+      "name": "DROP Lab, CMU Robotics Institute",
+      "position": "Research Assistant",
+      "startDate": "2025-01-01",
+      "endDate": "2025-09-01",
+      "summary": "Worked on Video-Generation Environment Representation (VGER) for 3D reconstruction and motion policy generation.",
+      "highlights": [
+        "Integrated video generation with 3D foundation models for single-image reconstruction.",
+        "Developed a multi-scale noise framework for motion-consistent environment representation.",
+        "Second-author paper published at NeurIPS 2025."
+      ],
+      "supervisors": ["Prof. Matthew Johnson-Roberson", "Dr. Weiming Zhi"]
+    },
+    {
+      "name": "Data Interaction Group, CMU Human-Computer Interaction Institute",
+      "position": "Research Assistant",
+      "startDate": "2024-06-01",
+      "endDate": "2025-09-01",
+      "summary": "Developed machine learning systems for healthcare applications under Prof. Adam Perer.",
+      "highlights": [
+        "Co-authored CHI 2025 paper 'Tempo' for collaborative predictive model design.",
+        "Built ML components (Dense, LSTM, Transformer) and integrated SHAP-based interpretability.",
+        "First-authored ML4H 2025 paper 'TempoQL'—a human-readable query system for EHR data."
+      ]
+    },
+    {
+      "name": "Soterea Automotive Technology Co., Ltd.",
+      "position": "AI Intern",
+      "startDate": "2022-07-01",
+      "endDate": "2022-08-01",
+      "summary": "Worked on deep learning–based driver assistance systems.",
+      "highlights": ["Collected and processed real-world driving data.", "Trained and tested danger-detection models to improve driver safety."]
+    }
+  ],
+
+  "publications": [
+    {
+      "name": "TempoQL: A Readable, Precise, and Portable Query System for Electronic Health Record Data",
+      "publisher": "Machine Learning for Healthcare (ML4H) 2025",
+      "authors": ["Ziyong Ma", "Venkatesh Sivaraman", "Richard D. Boyce", "Adam Perer"]
+    },
+    {
+      "name": "From Single Images to Motion Policies via Video-Generation Environment Representations",
+      "publisher": "NeurIPS 2025",
+      "authors": ["Weiming Zhi", "Ziyong Ma", "Tianyi Zhang", "Matthew Johnson-Roberson"]
+    },
+    {
+      "name": "OpenFLAME: A Federated Spatial Naming Infrastructure",
+      "publisher": "arXiv:2411.04271v2 (2025)",
+      "authors": ["Sagar Bharadwaj", "Ziyong Ma", "Ivan Liang", "Michael Farb", "Anthony Rowe", "Srinivasan Seshan"]
+    },
+    {
+      "name": "Tempo: Helping Data Scientists and Domain Experts Collaboratively Specify Predictive Modeling Tasks",
+      "publisher": "CHI 2025",
+      "authors": ["Venkatesh Sivaraman", "Anika Vaishampayan", "Xiaotong Li", "Brian R. Buck", "Ziyong Ma", "Richard D. Boyce", "Adam Perer"]
+    },
+    {
+      "name": "Introducing Students to Research and Reproducibility with Open Science Tools",
+      "publisher": "ASEE Annual Conference 2024",
+      "authors": ["Chasz Griego", "Cheng Zhang", "Wenchao Hu", "Ziyong Ma", "Andy Ouyang"]
+    },
+    {
+      "name": "DOSE3: Diffusion-based Unified Out-of-Distribution Detection on SE(3) Trajectories",
+      "publisher": "under review",
+      "authors": ["Hongzhe Cheng*", "Tianyou Zhang*", "Ziyong Ma*", "Tianyi Zhang", "Matthew Johnson-Roberson", "Weiming Zhi"]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Distributed Bitcoin Miner",
+      "startDate": "2025-09-01",
+      "endDate": "2025-10-01",
+      "summary": "Implemented a distributed Bitcoin mining system using a custom reliable UDP protocol.",
+      "highlights": ["Implemented LSP protocol in Go for fault-tolerant communication.", "Built job scheduler with fairness and fault recovery."]
+    },
+    {
+      "name": "Cupid Dating App",
+      "startDate": "2024-03-01",
+      "endDate": "2024-08-01",
+      "summary": "Developed an AI-powered dating app with chatbot and matching system.",
+      "url": "https://www.youtube.com/watch?v=V6DfPd9IELI"
+    },
+    {
+      "name": "Memory Allocator and Proxy Server Projects",
+      "startDate": "2023-07-01",
+      "summary": "Built systems-level projects including a 64-bit memory allocator and concurrent proxy server with LRU caching."
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C", "C++", "CUDA", "OpenCV", "PyTorch", "JavaScript", "TypeScript", "React", "HTML", "CSS"]
+    },
+    {
+      "name": "Machine Learning & Robotics",
+      "level": "Advanced",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
         "3D Reconstruction",
         "World Models",
         "Soft Robotics",
@@ -189,13 +169,13 @@
         "Computer Vision",
         "Reinforcement Learning",
         "Generative Models"
-        ]
+      ]
     },
     {
-        "name": "Data Systems & Infrastructure",
-        "level": "Intermediate",
-        "icon": "fa-solid fa-database",
-        "keywords": [
+      "name": "Data Systems & Infrastructure",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-database",
+      "keywords": [
         "Large-Scale Spatial Data Infrastructure",
         "Distributed Systems",
         "Docker",
@@ -204,65 +184,37 @@
         "Federated Mapping Systems",
         "Cloud Deployment",
         "Search Infrastructure"
-        ]
+      ]
     },
     {
-        "name": "Software Tools",
-        "level": "Advanced",
-        "icon": "fa-solid fa-wrench",
-        "keywords": [
-        "Jupyter",
-        "LaTeX",
-        "Matplotlib",
-        "Final Cut Pro",
-        "Photoshop",
-        "Lightroom",
-        "Premiere Pro"
-        ]
+      "name": "Software Tools",
+      "level": "Advanced",
+      "icon": "fa-solid fa-wrench",
+      "keywords": ["Jupyter", "LaTeX", "Matplotlib", "Final Cut Pro", "Photoshop", "Lightroom", "Premiere Pro"]
     },
     {
-        "name": "Operating Systems",
-        "level": "Proficient",
-        "icon": "fa-solid fa-laptop-code",
-        "keywords": [
-        "Linux",
-        "macOS",
-        "Windows"
-        ]
+      "name": "Operating Systems",
+      "level": "Proficient",
+      "icon": "fa-solid fa-laptop-code",
+      "keywords": ["Linux", "macOS", "Windows"]
     }
-    ],
+  ],
 
-  
-    "interests": [
+  "interests": [
     {
-        "name": "Basketball",
-        "icon": "fa-solid fa-basketball-ball",
-        "keywords": [
-        "Playing basketball",
-        "Watching NBA games",
-        "Team strategy and pickup games"
-        ]
+      "name": "Basketball",
+      "icon": "fa-solid fa-basketball-ball",
+      "keywords": ["Playing basketball", "Watching NBA games", "Team strategy and pickup games"]
     },
     {
-        "name": "Travel",
-        "icon": "fa-solid fa-plane-departure",
-        "keywords": [
-        "Exploring new cities",
-        "Cultural experiences",
-        "Food adventures",
-        "Landscape photography"
-        ]
+      "name": "Travel",
+      "icon": "fa-solid fa-plane-departure",
+      "keywords": ["Exploring new cities", "Cultural experiences", "Food adventures", "Landscape photography"]
     },
     {
-        "name": "Photography",
-        "icon": "fa-solid fa-camera-retro",
-        "keywords": [
-        "Street photography",
-        "Travel photography",
-        "Photo editing and composition"
-        ]
+      "name": "Photography",
+      "icon": "fa-solid fa-camera-retro",
+      "keywords": ["Street photography", "Travel photography", "Photo editing and composition"]
     }
-    ]
-
-  }
-  
+  ]
+}
