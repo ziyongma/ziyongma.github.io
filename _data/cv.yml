@@ -2,96 +2,81 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Ziyong Ma
+    - name: Email
+      value: ziyongm@andrew.cmu.edu
+    - name: Phone
+      value: (412) 286-8499
+    - name: LinkedIn
+      value: linkedin.com/in/ziyong-ma-270yong/
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Science in Mathematics and Computer Science
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: May 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "GPA: 3.66/4.0 (Dean's List: Fall 2023, Spring 2024, Fall 2024, Spring 2025)"
+        - "Coursework: Machine Learning, Algorithm Design, Computer Systems, Software Engineering, Theoretical Computer Science, Probability, Algebra, Operations Research"
+        - title: Academic Services
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - "Tutor, Introduction to Machine Learning (Spring 2023)"
+            - "Reviewer, IEEE International Conference on Robotics and Automation (ICRA)"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: WISE Lab at CMU Computer Science Department
+      year: Jun 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Supervisor: Prof. Srinivasan Seshan, Prof. Anthony Rowe"
+        - "Building the Interactive 3D Traversed-Live Mapping System (OpenTLME), a system that organizes the world into smaller maps hosted on map servers maintained by disparate parties through mobile devices"
+        - "Built the Interactive 3D Map platform where users can discover both outdoor and indoor locations based on different map servers using CesiumJS JavaScript library for creating 3D maps and Google 3D Tiles"
+        - "Built the backend map server using Django and PostgreSQL and deployed on Docker"
+        - "Implemented search engine on the Interactive 3D Map platform, enabling scalable indoor object search"
+        - "Built application with Android and Apple LAM"
+
+    - title: Research Assistant
+      institution: Robot Intelligence Group at CMU Robotics Institute
+      year: Jun 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - "Supervisor: Prof. Yue Gao"
+        - "Working on building world models for soft robots"
+        - "Collected new TACTO dataset with more than 2,000 deformation states"
+        - "Explored multiple large language model architectures of soft fingers using VGGT and trained a retrieval network model to predict the 3D geometry from servo commands"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: DROP Lab at Carnegie Robotics Institute
+      year: Jan 2025 - Sep 2025
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - "Supervisor: Prof. Matthew Johnson-Roberson, Dr. Weiming Zhi"
+        - "Proposed a framework for Video-Generation-to-3D (VG2D)"
+        - "Integrated the pretrained video generation models with 3D foundation models to produce multi-view videos and dense 3D reconstruction using Dust3R"
+        - "Introduced a multi-scale noise approach to train an implicit representation of the environment structure and build a scene representation model"
+        - "Published second-author paper at NeurIPS 2025 'From Single Images to Motion Policies via Video-Generation Environment Representation'"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023-2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - "Dean's List: Fall 2023, Spring 2024, Fall 2024, Spring 2025"
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, Java, C/C++, JavaScript
+    - title: Frameworks & Tools
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Django, PostgreSQL, Docker
+        - CesiumJS, Google 3D Tiles
+        - Android and Apple LAM
+    - title: Machine Learning & Robotics
+      items:
+        - VGGT, Dust3R, TACTO
+        - Video Generation Models
+        - 3D Foundation Models
