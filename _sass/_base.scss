@@ -1220,8 +1220,43 @@ ninja-keys::part(ninja-input-wrapper) {
   padding: 8px 12px;
 }
 
-.newsletter-form-input:focus {
+.newsletter-form-input:focus,
+.bibsearch-form-input:focus {
   border-color: var(--global-theme-color) !important;
+}
+
+// Bibliography tag filter buttons
+.bib-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.bib-tag-btn {
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+
+  &:hover {
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+    border-color: var(--global-theme-color);
+  }
+
+  &.active {
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+    border-color: var(--global-theme-color);
+  }
 }
 
 .newsletter-form-button {
