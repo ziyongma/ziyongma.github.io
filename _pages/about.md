@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate student pursuing a Bachelor of Science in Mathematics and Computer Science at Carnegie Mellon University (CMU), with an expected graduation in May 2026. My research interests span **3D Reconstruction and Understanding**, **Spatial Intelligence**, and **Spatial Data Infrastrutre**, with additional focus on **Machine Learning for Healthcare**.
+I am an undergraduate student pursuing a Bachelor of Science in Mathematics and Computer Science at Carnegie Mellon University (CMU), with an expected graduation in May 2026. My research interests span **Embodied AI**, **Spatial Intelligence**, **3D Reconstruction and Understanding** and **Spatial Data Infrastrutre**, with additional focus on **Machine Learning for Healthcare**.
 
 I am currently conducting research at both the **Computer Science Department** and the **Robotics Institute** at CMU. Within the Computer Science Department, under the supervision of **Prof. Srinivasan Seshan** and **Prof. Anthony Rowe**, I serve as a research assistant at WiSELab focuses on **large-scale spatial data infrastructure** and **spatial data understanding using multimodal large language models (MLLMs)**. At the Robotics Institute, I am jointly supervised by **Prof. Jean Oh** and **Prof. Jeffrey Ichnowski**, conducting research on **3D reconstruction**, **world models**, and **soft robotics**.
 
