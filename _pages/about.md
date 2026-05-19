@@ -31,7 +31,7 @@ I am an undergraduate student pursuing a Bachelor of Science in Mathematics and 
 
 I am currently conducting research in both the **Computer Science Department** and the **Robotics Institute** at CMU. Under the supervision of **Prof. Srinivasan Seshan** and **Prof. Anthony Rowe**, I work on **large-scale spatial data infrastructure** and **spatial data understanding using multimodal large language models (MLLMs)**.
 
-Previously, I was also fortunate to work with Prof. Jean Oh and Prof. Jeffrey Ichnowski on soft robots, with Prof. Matthew Johnson-Roberson and Dr. Weiming Zhi on 3D reconstruction diffusion models, and with Prof. Adam Perer on machine learning systems for healthcare.
+Previously, I was also fortunate to work with Prof. Jean Oh and Prof. Jeffrey Ichnowski on soft robots, with Prof. Matthew Johnson-Roberson and Dr. Weiming Zhi on 3D reconstruction and diffusion models, and with Prof. Adam Perer on machine learning systems for healthcare.
 
 Besides research, I’m a big basketball enthusiast 🏀 and an avid fan of travel 🌏 and photography 📷!
 
