@@ -409,7 +409,7 @@ ul.task-list input[type="checkbox"] {
       justify-content: center;
       gap: 1rem;
       margin: 1.5rem 0 2rem;
-      font-size: 1.2rem;
+      font-size: 1rem;
 
       a {
         display: inline-flex;
@@ -423,7 +423,7 @@ ul.task-list input[type="checkbox"] {
 
         .contact-label {
           color: var(--global-text-color);
-          font-size: 1rem;
+          font-size: inherit;
         }
 
         &:hover .contact-label {
