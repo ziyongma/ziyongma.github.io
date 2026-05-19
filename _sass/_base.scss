@@ -403,6 +403,35 @@ ul.task-list input[type="checkbox"] {
   .contact-icons {
     font-size: 4rem;
 
+    &.contact-icons-labeled {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      margin: 1.5rem 0 2rem;
+      font-size: 1rem;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.35rem 0.6rem;
+
+        i {
+          font-size: 1.25rem;
+        }
+
+        .contact-label {
+          color: var(--global-text-color);
+          font-size: 0.95rem;
+        }
+
+        &:hover .contact-label {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+
     a {
       img {
         width: 3.2rem;

@@ -27,11 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate student pursuing a Bachelor of Science in Mathematics and Computer Science at Carnegie Mellon University (CMU), with an expected graduation in May 2026. My research interests span **Embodied AI**, **Spatial Intelligence**, **3D Reconstruction and Understanding** and **Spatial Data Infrastrutre**, with additional focus on **Machine Learning for Healthcare**.
+I am an undergraduate student pursuing a Bachelor of Science in Mathematics and Computer Science at Carnegie Mellon University (CMU), with an expected graduation in May 2026. My research interests span **Embodied AI**, **Spatial Intelligence** and **Spatial Data Infrastrutre**, with additional focus on **Machine Learning for Healthcare**.
 
-I am currently conducting research at both the **Computer Science Department** and the **Robotics Institute** at CMU. Within the Computer Science Department, under the supervision of **Prof. Srinivasan Seshan** and **Prof. Anthony Rowe**, I serve as a research assistant at WiSELab focuses on **large-scale spatial data infrastructure** and **spatial data understanding using multimodal large language models (MLLMs)**. At the Robotics Institute, I am jointly supervised by **Prof. Jean Oh** and **Prof. Jeffrey Ichnowski**, conducting research on **3D reconstruction**, **world models**, and **soft robotics**.
+I am currently conducting research in both the **Computer Science Department** and the **Robotics Institute** at CMU. Under the supervision of **Prof. Srinivasan Seshan** and **Prof. Anthony Rowe**, I work on **large-scale spatial data infrastructure** and **spatial data understanding using multimodal large language models (MLLMs)**.
 
-Previously, I was a research assistant at DropLab at CMU , supervised by Prof. Matthew Johnson-Roberson and Dr. Weiming Zhi, where I focused on 3D reconstruction from single-view images and path planning in 3D environments. I also worked at the DIG Lab in the Human-Computer Interaction Institute (HCII) at CMU, supervised by Prof. Adam Perer, conducting research on machine learning systems for healthcare.
+Previously, I was also fortunate to work with Prof. Jean Oh and Prof. Jeffrey Ichnowski on soft robots, with Prof. Matthew Johnson-Roberson and Dr. Weiming Zhi on 3D reconstruction diffusion models, and with Prof. Adam Perer on machine learning systems for healthcare.
 
 Besides research, I’m a big basketball enthusiast 🏀 and an avid fan of travel 🌏 and photography 📷!
 
