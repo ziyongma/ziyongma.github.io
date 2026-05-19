@@ -15,7 +15,9 @@
     {% when 'email' %}
       <a href="mailto:{{ social[1] | encode_email }}" title="email">
         <i class="fa-solid fa-envelope"></i>
-        {% if include.show_labels %}<span class="contact-label">Email</span>{% endif %}
+        {% if include.show_labels -%}
+          <span class="contact-label">Email</span>
+        {%- endif %}
       </a>
     {% when 'facebook_id' %}
       <a href="https://facebook.com/{{ social[1] }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
@@ -46,7 +48,9 @@
     {% when 'linkedin_username' %}
       <a href="https://www.linkedin.com/in/{{ social[1] }}" title="LinkedIn">
         <i class="fa-brands fa-linkedin"></i>
-        {% if include.show_labels %}<span class="contact-label">LinkedIn</span>{% endif %}
+        {% if include.show_labels -%}
+          <span class="contact-label">LinkedIn</span>
+        {%- endif %}
       </a>
     {% when 'mastodon_username' %}
       <a rel="me" href="https://{{ social[1] }}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
@@ -71,7 +75,9 @@
     {% when 'scholar_userid' %}
       <a href="https://scholar.google.com/citations?user={{ social[1] }}" title="Google Scholar">
         <i class="ai ai-google-scholar"></i>
-        {% if include.show_labels %}<span class="contact-label">Google Scholar</span>{% endif %}
+        {% if include.show_labels -%}
+          <span class="contact-label">Google Scholar</span>
+        {%- endif %}
       </a>
     {% when 'scopus_id' %}
       <a href="https://www.scopus.com/authid/detail.uri?authorId={{ social[1] }}" title="Scopus"><i class="ai ai-scopus"></i></a>
